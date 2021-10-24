@@ -18,3 +18,11 @@
   
 - id: "subscribe"
   translation: "Subscribe"
+- id: "Home"
+  translation: "Accueil"
+- id: "testimonial"
+  translation: "Les créateurs"
+- id: "contact-us"
+  translation: "Rejoignez l'aventure"
+- id: "the adventure"
+  translation: "L'aventure Toha"

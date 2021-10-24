@@ -17,12 +17,6 @@ unsafe = true
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
-
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
-
-[[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -53,25 +47,20 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Products"
+name = "the adventure"
 url = "products"
 weight = 2
 
 [[menu.main]]
-name = "Blog"
-url = "blog"
+name = "testimonial"
+pre = "#"
+url = "testimonial"
 weight = 3
 
 [[menu.main]]
-name = "Review"
-pre = "#"
-url = "testimonial"
-weight = 4
-
-[[menu.main]]
-name = "Contact"
+name = "contact-us"
 url = "contact"
-weight = 5
+weight = 4
 
 # footer menu
 [[menu.footer]]

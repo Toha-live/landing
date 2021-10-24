@@ -18,3 +18,9 @@
   
 - id: "subscribe"
   translation: "Subscribe"
+- id: "testimonial"
+  translation: "Testimonial"
+- id: "contact-us"
+  translation: "Get in touch"
+- id: "the adventure"
+  translation: "The adventure"
