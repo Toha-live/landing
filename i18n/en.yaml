@@ -9,6 +9,8 @@
   
 - id: "read_more"
   translation: "Read More"
+- id: "Home"
+  translation: "Home"
 - id: "testimonial"
   translation: "Testimonial"
 - id: "contact-us"

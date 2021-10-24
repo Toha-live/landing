@@ -1,7 +1,7 @@
 ################################### Default Configuration ############################
 baseurl = "http://examplesite.com/"
 title = "Toha -- The eco-friendly liveshopping platform"
-theme = "vex"
+#theme = "vex"
 # post excert
 summarylength = "20"
 # google analytics
@@ -26,6 +26,8 @@ link = "plugins/themefisher-font/themefisher-font.min.css"
 link = "plugins/slick/slick.min.css"
 [[params.plugins.css]]
 link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
+[[params.plugins.css]]
+link= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -48,7 +50,7 @@ weight = 1
 
 [[menu.main]]
 name = "the adventure"
-url = "products"
+url = "mission"
 weight = 2
 
 [[menu.main]]
