@@ -69,7 +69,7 @@ url = "blog"
 weight = 1
 
 [[menu.footer]]
-name = "Contact"
+name = "contact-us"
 url = "contact"
 weight = 2
 
