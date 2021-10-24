@@ -2,10 +2,10 @@
 banner:
   enable : true
   title : "Un live pour reprendre le pouvoir"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  content : "Toha, La plateforme de live shopping eco-responsable qui vous met en relation directement avec les créateurs de vos produits préférés."
   image : "images/toha_main.jpeg"
   button:
-   enable : true
+   enable : false
    label : "Browse All Products"
    link : "products"
 
@@ -19,25 +19,25 @@ features:
   left_side:
     # feature item loop
   - title : "Confiance"
-    icon : "tf-ion-ios-alarm-outline"
-    content : "Tous les produits eco-responsables chez Toha sont sélectionnés par nos soins. L’équipe Toha a rencontré et dialogué avec tous les entrepreneurs de la plateforme pour s’assurer qu’ils correspondaient à notre charte eco-responsable"
+    icon : "far fa-handshake"
+    content : "Tous les produits eco-responsables chez Toha sont sélectionnés par nos soins. L’équipe Toha a rencontré et dialogué avec tous les entrepreneurs de la plateforme pour s’assurer qu’ils correspondaient à notre charte eco-responsable."
     
     # feature item loop
   - title : "Simplicité"
-    icon : "tf-ion-ios-bell-outline"
-    content : "Il n’a jamais été aussi simple d’acheter un produit : acheter devient aussi facile que de poser un pouce bleu. "
+    icon : "fas fa-coffee"
+    content : "Il n’a jamais été aussi simple d’acheter un produit : acheter devient aussi facile que de poser un pouce bleu."
 
 
   # feature at the right of the image
   right_side:
     # feature item loop
   - title : "Transparence"
-    icon : "tf-ion-ios-alarm-outline"
-    content : "Achète en toutes connaissances de cause des produits qui sont réellement bons pour  toi et pour la planète"
+    icon : "fas fa-hands"
+    content : "Achète en toutes connaissances de cause des produits qui sont réellement bons pour toi et pour la planète."
 
     # feature item loop
   - title : "Exclusivité"
-    icon : "tf-ion-ios-bell-outline"
+    icon : "fas fa-gem"
     content : "Contenu exclusif, promotions et produits inédits : chaque live proposé sur Toha est un événement unique à ne pas rater !"
 
 
