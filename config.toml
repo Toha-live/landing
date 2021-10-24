@@ -53,11 +53,11 @@ name = "the adventure"
 url = "mission"
 weight = 2
 
-[[menu.main]]
-name = "testimonial"
-pre = "#"
-url = "testimonial"
-weight = 3
+#[[menu.main]]
+#name = "testimonial"
+#pre = "#"
+#url = "testimonial"
+#weight = 3
 
 [[menu.main]]
 name = "contact-us"
@@ -80,10 +80,10 @@ name = "Terms & Conditions"
 url = "terms-conditions"
 weight = 3
 
-[[menu.footer]]
-name = "Privacy Policy"
-url = "privacy-policy"
-weight = 4
+#[[menu.footer]]
+#name = "Privacy Policy"
+#url = "privacy-policy"
+#weight = 4
 
 
 ########################### Default parameters ##########################
