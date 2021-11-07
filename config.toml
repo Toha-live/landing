@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "http://examplesite.com/"
+baseurl = "https://toha-live.github.io/landing/"
 title = "Toha -- The eco-friendly liveshopping platform"
 #theme = "vex"
 # post excert
