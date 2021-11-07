@@ -26,3 +26,6 @@
 </section><!-- header close -->
 {{- end }}
 {{- end }}
+
+{{ $script := resources.Get "js/animate-content.js" }}
+<script src="{{ $script.Permalink }}" defer></script>
