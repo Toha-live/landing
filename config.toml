@@ -5,7 +5,7 @@ title = "Toha -- The eco-friendly liveshopping platform"
 # post excert
 summarylength = "20"
 # google analytics
-googleAnalytics = "" # Ex: UA-123-45
+googleAnalytics = "G-W2ZZX7M9SG" # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
 
