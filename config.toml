@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://toha-live.github.io/landing/"
+baseurl = "https://www.toha-live.com"
 title = "Toha -- The eco-friendly liveshopping platform"
 #theme = "vex"
 # post excert
@@ -19,11 +19,9 @@ unsafe = true
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
 [[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
+link = "https://cdn.usebootstrap.com/bootstrap/latest/css/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/themefisher-font/themefisher-font.min.css"
-[[params.plugins.css]]
-link = "plugins/slick/slick.min.css"
 [[params.plugins.css]]
 link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
 [[params.plugins.css]]
@@ -31,11 +29,9 @@ link= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.cs
 
 # JS Plugins
 [[params.plugins.js]]
-link = "plugins/jquery/jquery.js"
+link = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
 [[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
+link = "https://cdn.usebootstrap.com/bootstrap/latest/js/bootstrap.min.js"
 [[params.plugins.js]]
 link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
 [[params.plugins.js]]
