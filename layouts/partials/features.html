@@ -5,12 +5,12 @@
 <section class="section" id="features">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 order-first">
         <div class="heading">
           <h2>{{ .title | markdownify }}</h2>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 order-3 order-md-2">
         {{ range .left_side }}
         <div class="mb-40 text-md-left feature">
           <i class="{{ .icon }} fa-2x"></i>
@@ -19,10 +19,10 @@
         </div>
         {{ end }}
       </div>
-      <div class="col-md-4 text-center align-self-center mb-4 mb-md-0 feature-image">
+      <div class="col-md-4 text-center align-self-center mb-4 mb-md-0 feature-image order-2 order-md-3">
         <img class="img-fluid presentation-pic" src="{{ .image | absURL }}" alt="">
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 order-4">
           {{ range .right_side }}
         <div class="mb-40 text-md-left feature">
           <i class="{{ .icon }} fa-2x"></i>
