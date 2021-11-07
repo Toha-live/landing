@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Un live pour reprendre le pouvoir"
   content : "Toha, La plateforme de live shopping eco-responsable qui vous met en relation directement avec les créateurs de vos produits préférés."
-  image : "images/toha_main.jpeg"
+  image : "images/toha_main.png"
   button:
    enable : false
    label : "Browse All Products"
@@ -13,7 +13,7 @@ banner:
 features:
   enable : true
   title : "L'expérience Toha"
-  image : "images/toha_shopping.jpeg"
+  image : "images/toha_shopping.png"
 
   # feature at the left of the image
   left_side:
