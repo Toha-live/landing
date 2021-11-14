@@ -43,13 +43,15 @@ features:
 
 ############################# promo ############################
 promo:
-  enable : false
-  image : "images/watch.png"
-  title : "Designed by professional , the benefit for creative gigs"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+  enable : true
+  image : "images/product-showcase.png"
+  title : "How does it work ?"
+  arguments:
+    - text: "Discover why the product is unique and interact with its creator"
+    - text: "Beneficiate from the comments and feedbacks from the rest of the community"
+    - text: "Ask any question freely and get answers to your concerns !"
+    - text: "Support the creator by sharing the products you enjoyed"
+    - text: "Order directly during the live without leaving the platform"
 
 
 ############################# About Product #######################

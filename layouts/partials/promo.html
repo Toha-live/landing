@@ -5,13 +5,17 @@
 <section class="bg-orange section">
   <div class="container">
     <div class="row">
+      <div class="col-12 heading">
+        <h1 class="subheading text-white font-weight-bold mb-10">{{ .title | markdownify }}</h1>
+      </div>
       <div class="col-md-6 text-center mb-5 mb-lg-0">
-        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
+        <img class="img-fluid presentation-pic" src="{{ .image | absURL }}" alt="">
       </div>
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="content">
-          <h2 class="subheading text-white font-weight-bold mb-10">{{ .title | markdownify }}</h2>
-          <p class="text-white">{{ .content | markdownify }}</p>
+          {{ range .arguments }}
+          <p class="text-white font-weight-bold">{{ .text }}</p>
+          {{ end }}
         </div>
       </div>
     </div>

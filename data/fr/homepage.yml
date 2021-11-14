@@ -43,13 +43,15 @@ features:
 
 ############################# promo ############################
 promo:
-  enable : false
-  image : "images/watch.png"
-  title : "Designed by professional , the benefit for creative gigs"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+  enable : true
+  image : "images/product-showcase.png"
+  title : "Comment ça marche ?"
+  arguments:
+    - text: "Découvrez pourquoi le produit est unique et interagissez avec le fondateur"
+    - text: "Bénéficiez des commentaires et retours du reste de la communauté"
+    - text: "Posez vos questions librement afin d’avoir les réponses à tes préoccupations !"
+    - text: "Soutenez le créateur en partageant vos coups de coeur"
+    - text: "Commandez en direct sans avoir à quitter le live depuis votre compte Toha"
 
 
 ############################# About Product #######################
