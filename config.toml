@@ -23,8 +23,6 @@ link = "https://cdn.usebootstrap.com/bootstrap/latest/css/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/themefisher-font/themefisher-font.min.css"
 [[params.plugins.css]]
-link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
-[[params.plugins.css]]
 link= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
 
 # JS Plugins
@@ -32,8 +30,6 @@ link= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.cs
 link = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
 [[params.plugins.js]]
 link = "https://cdn.usebootstrap.com/bootstrap/latest/js/bootstrap.min.js"
-[[params.plugins.js]]
-link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
 [[params.plugins.js]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
 [[params.plugins.js]]
@@ -103,12 +99,6 @@ contact_form_action = "#" # contact form works with https://formspree.io
 [params.preloader]
 enable = true
 preloader = "" # use .png , .svg or .gif format
-
-# Snipcart
-[params.snipcart]
-enable = false
-# snipcart public api key
-snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
 
 # Subscription
 [params.subscription]
