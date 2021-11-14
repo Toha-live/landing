@@ -6,7 +6,7 @@ ScrollTrigger.matchMedia({
         scrub: true,
         pin: true,
         start: "center center",
-        end: "bottom -100%",
+        end: "bottom -80%",
         ease: "power2"
       }
     });
@@ -21,14 +21,15 @@ ScrollTrigger.matchMedia({
       }
     });
 
-    gsap.utils.toArray(".feature").forEach(elem => {
-      gsap.from(elem, { opacity: 0, duration: 1, scrollTrigger: {
-        trigger: elem,
-        scrub: 1,
-        stagger: 0.25,
-        start: "top top",
-        end: "bottom center",
-      } });
-    })
+    const tl = gsap.timeline({ scrollTrigger: {
+      trigger: "#features",
+      start: "top +20%",
+      end: "+=1000",
+      scrub: 2,
+    }});
+
+    gsap.utils.toArray(".feature").forEach((elem, i) => {
+      tl.from(elem, { opacity: 0, duration: 0.5 }, ">");
+    });
   }
 })
