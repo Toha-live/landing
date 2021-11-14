@@ -21,8 +21,8 @@ ScrollTrigger.matchMedia({
     const arguments = gsap.utils.toArray(".argument");
 
     arguments.forEach((elem, i) => {
-      tl.from(elem, { opacity: 0, duration: 0.5 }, ">");
-      i !== arguments.length -1 && tl.to(elem, { opacity: 0, duration: 0.5 }, ">");
+      tl.from(elem, { opacity: 0, duration: 0.5 }, ">1");
+      i !== arguments.length -1 && tl.to(elem, { opacity: 0, duration: 0.5 }, ">1");
     });
   }
 })
