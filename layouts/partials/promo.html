@@ -2,7 +2,7 @@
 
 {{ if $data.homepage.promo.enable }}
 {{ with $data.homepage.promo }}
-<section class="bg-orange section">
+<section class="bg-orange section" id="promo">
   <div class="container">
     <div class="row">
       <div class="col-12 heading">
@@ -12,9 +12,9 @@
         <img class="img-fluid presentation-pic" src="{{ .image | absURL }}" alt="">
       </div>
       <div class="col-md-6 align-self-center text-center text-md-left">
-        <div class="content">
+        <div class="content argument-list">
           {{ range .arguments }}
-          <p class="text-white font-weight-bold">{{ .text }}</p>
+          <p class="text-white font-weight-bold argument">{{ .text }}</p>
           {{ end }}
         </div>
       </div>
@@ -23,3 +23,6 @@
 </section>
 {{ end }}
 {{ end }}
+
+{{ $script := resources.Get "js/animate-promo.js" }}
+<script src="{{ $script.Permalink }}" defer></script>

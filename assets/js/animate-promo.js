@@ -1,35 +1,28 @@
 ScrollTrigger.matchMedia({
   "(min-width: 800px)": function () {
-    gsap.to("#features", {
+    gsap.to("#promo", {
       scrollTrigger: {
-        trigger: "#features",
+        trigger: "#promo",
         scrub: true,
         pin: true,
         start: "center center",
-        end: "bottom -80%",
+        end: "bottom -100%",
         ease: "power2"
-      }
-    });
-    
-    gsap.from(".feature-image", {
-      opacity: 0,
-      duration: 1,
-      scrollTrigger: {
-        trigger: ".feature-image",
-        start: "top +50%",
-        scrub: 1,
       }
     });
 
     const tl = gsap.timeline({ scrollTrigger: {
-      trigger: "#features",
+      trigger: "#promo",
       start: "top +20%",
       end: "+=1000",
       scrub: 2,
     }});
 
-    gsap.utils.toArray(".feature").forEach((elem, i) => {
+    const arguments = gsap.utils.toArray(".argument");
+
+    arguments.forEach((elem, i) => {
       tl.from(elem, { opacity: 0, duration: 0.5 }, ">");
+      i !== arguments.length -1 && tl.to(elem, { opacity: 0, duration: 0.5 }, ">");
     });
   }
 })

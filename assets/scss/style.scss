@@ -607,3 +607,17 @@ textarea.form-control {
 .presentation-pic {
   height: 580px;
 }
+
+@media screen and (min-width: 800px) {
+  .argument-list {
+    position: relative;
+  }
+
+  .argument {
+    position: absolute;
+    font-weight: bold;
+    font-size: xx-large;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
