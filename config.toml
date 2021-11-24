@@ -1,7 +1,6 @@
 ################################### Default Configuration ############################
 baseurl = "https://www.toha-live.com"
 title = "Toha -- The eco-friendly liveshopping platform"
-#theme = "vex"
 # post excert
 summarylength = "20"
 # google analytics
@@ -21,8 +20,6 @@ unsafe = true
 #################################### Plugins ##########################################
 
 # CSS Plugins
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
 [[params.plugins.css]]
 link = "https://cdn.usebootstrap.com/bootstrap/latest/css/bootstrap.min.css"
 [[params.plugins.css]]
@@ -47,7 +44,7 @@ link = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
 # homepage section menu
 [[menu.main]]
 name = "Home"
-url = "/"
+url = ""
 weight = 1
 
 [[menu.main]]
@@ -90,15 +87,13 @@ weight = 3
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.jpeg"
+logo = "images/logo.webp"
 logo_width = "70px"
 # Meta data
-description = "This is meta description"
+description = "Toha is an eco-friendly live shopping platform and marketplace"
 author = "toha"
 # currency
 currency = "€"
-# contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
 
 # Preloader
 [params.preloader]
@@ -113,13 +108,13 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this co
 
 defaultContentLanguage = 'fr'
 
-
+[languages]
 ################################### English language #####################################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 # copyright
 copyright = "Copyright ©2021 Toha"
 
@@ -129,6 +124,6 @@ copyright = "Copyright ©2021 Toha"
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
-weight = 2
+weight = 1
 # copyright
 copyright = "Copyright ©2021 Toha"

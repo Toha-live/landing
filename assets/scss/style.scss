@@ -1,4 +1,5 @@
 @import 'mixins';
+@import 'font';
 
 // Variables
 $primary-font: 'PT Sans',
@@ -620,4 +621,8 @@ textarea.form-control {
     top: 50%;
     transform: translateY(-50%);
   }
+}
+
+.social-link, .social-link:active, .social-link:visited, .social-link:hover {
+  color: $primary-color;
 }

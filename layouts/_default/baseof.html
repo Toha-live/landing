@@ -1,12 +1,25 @@
-<!DOCTYPE html>
-<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-{{- partial "head.html" . -}}
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 
-<body id="body">
-	{{- partial "preloader.html" . -}}
-	{{- partial "header.html" . -}}
-	{{- block "main" . }}{{- end }}
-	{{- partial "footer.html" . -}}
-</body>
+  <head itemscope itemtype="{{ .Site.BaseURL }}">
+    <meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <!-- All the meta tags below will come under this meta partial -->
+    {{ partial "meta" . }}
+    {{ partial "links" . }}
+  </head>
+
+  <body id="body">
+		{{ partial "preloader" . }}
+    {{ partial "header" . }}
+    <main id="main">
+      {{ block "main" . }}
+
+      {{ end }}
+    </main>
+    {{ partial "footer" . }} 
+  </body>
 
 </html>

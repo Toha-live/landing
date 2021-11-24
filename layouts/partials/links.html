@@ -1,0 +1,17 @@
+<base href="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+<meta name="url" content="{{ .Permalink }}" />
+<meta name="twitter:url" content="{{ .Permalink }}" /> 
+<meta property="og:url" content="{{ .Permalink }}" />
+{{ "<!-- plugins -->" | safeHTML }}
+{{ range site.Params.plugins.css }}
+<link rel="stylesheet" href="{{ .link | absURL }} ">
+{{ end }}
+
+{{ "<!-- Main Stylesheet -->" | safeHTML }}
+{{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+{{ "<!--Favicon-->" | safeHTML }}
+<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+<link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
