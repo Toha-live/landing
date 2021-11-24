@@ -13,6 +13,11 @@ disableLanguages = [] # disable language from here
 [markup.goldmark.renderer]
 unsafe = true
 
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
 #################################### Plugins ##########################################
 
 # CSS Plugins
