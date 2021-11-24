@@ -23,8 +23,6 @@ unsafe = true
 [[params.plugins.css]]
 link = "https://cdn.usebootstrap.com/bootstrap/latest/css/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/themefisher-font/themefisher-font.min.css"
-[[params.plugins.css]]
 link= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
 
 # JS Plugins
