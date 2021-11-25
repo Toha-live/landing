@@ -112,6 +112,7 @@ languageName = 'En'
 languageCode = 'en-us'
 contentDir = 'content/english'
 description = 'Toha is an eco-friendly live shopping platform and marketplace'
+title = 'Toha -- The eco-friendly liveshopping platform'
 weight = 2
 # copyright
 copyright = 'Copyright ©2021 Toha'
@@ -123,6 +124,7 @@ languageName = 'Fr'
 languageCode = 'fr-fr'
 contentDir = 'content/french'
 description = 'Toha est une plateforme de live commerce éco-responsable'
+title = 'Toha -- La plateforme de live commerce éco-responsable'
 weight = 1
 # copyright
 copyright = 'Copyright ©2021 Toha'
