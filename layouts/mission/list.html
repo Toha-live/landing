@@ -12,6 +12,7 @@
     </div>
   </div>
 </section>
+{{ with .Params.content }}
 <section class="bg-orange section text-white">
   <div class="container">
     <div class="row align-items-center">
@@ -19,14 +20,25 @@
         <i class="far fa-handshake fa-8x"></i>
       </div>
       <div class="col-12 col-sm-8 text-center mb-5">
-        {{ with .Params.content }}
         <h2 class="font-weight-bold mt-5 mb-3">{{ .titlePurpose }}</h2>
         <p>{{ .missionPurpose }}</p>
-        {{end}}
       </div>
     </div>
   </div>
+</section>
+<section class="section">
+  <div class="container">
+    <h1 class="mb-3 text-center">{{ .commitmentTitle }}</h1>
+    <p>{{.commitmentIntroduction}}</p>
+    {{ range .commitments }}
+    <ul>
+      <li>
+        <h2 class="mb-2 mt-4">{{ .title }}</h2>
+        <p>{{ .content | markdownify }}</p>
+      </li>
+    </ul>
+    {{ end }}
   </div>
 </section>
-
+{{end}}
 {{ end }}
