@@ -1,12 +1,13 @@
 ################################### Default Configuration ############################
-baseurl = "https://www.toha-live.com"
-title = "Toha -- The eco-friendly liveshopping platform"
+baseurl = 'https://www.toha-live.com'
+title = 'Toha -- The eco-friendly liveshopping platform'
 # post excert
-summarylength = "20"
+summarylength = '20'
 # google analytics
-googleAnalytics = "G-W2ZZX7M9SG" # Ex: UA-123-45
+googleAnalytics = 'G-W2ZZX7M9SG' # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
+DefaultContentLanguage = 'fr'
 
 # unsafe html
 [markup.goldmark.renderer]
@@ -21,19 +22,19 @@ unsafe = true
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "https://cdn.usebootstrap.com/bootstrap/latest/css/bootstrap.min.css"
+link = 'https://cdn.usebootstrap.com/bootstrap/latest/css/bootstrap.min.css'
 [[params.plugins.css]]
-link= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+link= 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'
 
 # JS Plugins
 [[params.plugins.js]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+link = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'
 [[params.plugins.js]]
-link = "https://cdn.usebootstrap.com/bootstrap/latest/js/bootstrap.min.js"
+link = 'https://cdn.usebootstrap.com/bootstrap/latest/js/bootstrap.min.js'
 [[params.plugins.js]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+link = 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js'
 [[params.plugins.js]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+link = 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js'
 
 
 
@@ -41,87 +42,87 @@ link = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
 
 # homepage section menu
 [[menu.main]]
-name = "Home"
-url = ""
+name = 'Home'
+url = ''
 weight = 1
 
 [[menu.main]]
-name = "the adventure"
-url = "mission"
+name = 'the adventure'
+url = 'mission'
 weight = 2
 
 #[[menu.main]]
-#name = "testimonial"
-#pre = "#"
-#url = "testimonial"
+#name = 'testimonial'
+#pre = '#'
+#url = 'testimonial'
 #weight = 3
 
 [[menu.main]]
-name = "contact-us"
-url = "contact"
+name = 'contact-us'
+url = 'contact'
 weight = 4
 
 # footer menu
 [[menu.footer]]
-name = "Blog"
-url = "blog"
+name = 'Blog'
+url = 'blog'
 weight = 1
 
 [[menu.footer]]
-name = "contact-us"
-url = "contact"
+name = 'contact-us'
+url = 'contact'
 weight = 2
 
 [[menu.footer]]
-name = "Terms & Conditions"
-url = "terms-conditions"
+name = 'Terms & Conditions'
+url = 'terms-conditions'
 weight = 3
 
 #[[menu.footer]]
-#name = "Privacy Policy"
-#url = "privacy-policy"
+#name = 'Privacy Policy'
+#url = 'privacy-policy'
 #weight = 4
 
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.webp"
-logo_width = "70px"
+logo = 'images/logo.webp'
+logo_width = '70px'
 # Meta data
-description = "Toha is an eco-friendly live shopping platform and marketplace"
-author = "toha"
+description = 'Toha is an eco-friendly live shopping platform and marketplace'
+author = 'toha'
 # currency
-currency = "€"
+currency = '€'
 
 # Preloader
 [params.preloader]
 enable = true
-preloader = "" # use .png , .svg or .gif format
+preloader = '' # use .png , .svg or .gif format
 
 # Subscription
 [params.subscription]
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+mailchimp_form_action = 'https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074' # replace this url with yours
+mailchimp_form_name = 'b_463ee871f45d2d93748e77cad_a0a2c6d074' # replace this code with yours
 
-defaultContentLanguage = 'fr'
-
-[languages]
+[Languages]
 ################################### English language #####################################
 [Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
+languageName = 'En'
+languageCode = 'en-us'
+contentDir = 'content/english'
+description = 'Toha is an eco-friendly live shopping platform and marketplace'
 weight = 2
 # copyright
-copyright = "Copyright ©2021 Toha"
+copyright = 'Copyright ©2021 Toha'
 
 
 ################################### French language #####################################
 [Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
+languageName = 'Fr'
+languageCode = 'fr-fr'
+contentDir = 'content/french'
+description = 'Toha est une plateforme de live commerce éco-responsable'
 weight = 1
 # copyright
-copyright = "Copyright ©2021 Toha"
+copyright = 'Copyright ©2021 Toha'
