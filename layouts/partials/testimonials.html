@@ -11,16 +11,17 @@
         </div>
       </div>
       {{ range .testimonial_item }}
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
-        <div class="testimonial-block">
-          <i class="tf-ion-quote"></i>
-          <p>{{ .content | markdownify }}</p>
-          <div class="author-details">
-            <img src="{{ .image | absURL }}" alt="{{ .name }}">
-            <h4>{{ .name }}</h4>
-            <span>{{ .designation }}</span>
+      <div class="col-xl-3 col-lg-4 col-sm-6 mb-5 mb-lg-0 text-center">
+        <a href="{{ .link | absURL }}" target="_blank" rel="noopener noreferer">
+          <div class="testimonial-block">
+            <p>{{ .content | markdownify }}</p>
+            <div class="author-details">
+              <img src="{{ .image | absURL }}" alt="{{ .name }}">
+              <h4>{{ .name }}</h4>
+              <span>{{ .designation }}</span>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       {{ end }}
     </div>
