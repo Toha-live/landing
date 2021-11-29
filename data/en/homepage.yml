@@ -9,6 +9,18 @@ banner:
    label : "Browse All Products"
    link : "products"
 
+purpose:
+   enable: true
+   title: "Toha gives a soul to eco-responsible e-commerce"
+   content:
+     - title: "Always the same questions ..."
+       text: "Is this product really good for me? Is it good for the planet? What if this product is not what it claims to be? What's the story behind this product?"
+     - title: "... which cannot find an answer online ..."
+       text: "The current marketplace format does not make it possible to differentiate products.<br/> A doctorate in chemistry is often necessary to understand the qualities of the product.<br/> Labels are too often far from the issues of consumers and project leaders."
+     - title: "... then go get them at the source ..."
+       text: "Get informed directly by talking to the creator of the product"
+     - title: "... and order while being fully informed"
+       text: "And all this without having to leave the live"
 ############################# Feature ############################
 features:
   enable : true

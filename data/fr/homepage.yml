@@ -8,6 +8,18 @@ banner:
    enable : false
    label : "Browse All Products"
    link : "products"
+purpose:
+  enable: true
+  title: "Toha redonne une âme au e-commerce eco-responsable"
+  content:
+    - title: "Toujours les mêmes questions..."
+      text: "Ce produit est-il vraiment  bon pour moi ? Est-il bon pour la planète ? Et si ce produit n’est pas ce qu’il prétend être ? Quelle est l’histoire de ce produit ?"
+    - title: "...qui ne trouvent pas de réponses en ligne..."
+      text: "Le format actuel des marketplace ne permet pas de différencier les produits.<br/> Un doctorat en chimie est souvent nécessaire pour comprendre les qualités du produit.<br/> Les labels sont trop souvent éloignés des problématiques des consommateurs et des porteurs de projets."
+    - title: "...alors va les chercher à la source..."
+      text: "Informe toi directement en échangeant avec le créateur du produit"
+    - title: "...et commande en étant pleinement informé"
+      text: "Et tout cela sans avoir à quitter le live"
 
 ############################# Feature ############################
 features:

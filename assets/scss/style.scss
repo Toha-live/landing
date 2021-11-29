@@ -628,3 +628,40 @@ textarea.form-control {
 a, a:hover {
   color: inherit;
 }
+
+.purpose-card {
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  overflow: hidden;
+  transition: transform 300ms, box-shadow 300ms;
+
+  &:not(:last-of-type) {
+    margin-bottom: 50px;
+  }
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 10px 14px 0px;
+  }
+
+  & h3 {
+    background: $primary-color;
+    color: white;
+    font-weight: bold;
+  }
+
+  & h3, & p {
+    padding: 100px 50px;
+    @media screen and (max-width: 799px) {
+      padding: 20px 20px;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    &:nth-child(2n) {
+      flex-flow: row-reverse;
+    }
+  }
+}
+
+
