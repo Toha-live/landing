@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "A live to regain power"
+  title : "Eco-friendly creators in action"
   content : "Toha, the eco-responsible live shopping platform that puts you in direct contact with the creators of your favorite products."
   image : "images/toha_main.webp"
   button:
@@ -29,28 +29,21 @@ features:
 
   # feature at the left of the image
   left_side:
-    # feature item loop
   - title : "Trust"
     icon : "far fa-handshake"
-    content : "All eco-responsible products at Toha are selected by us. The Toha team meets and interact with all the entrepreneurs on the platform to ensure that they correspond to our eco-responsible chart."
-    
-    # feature item loop
-  - title : "Simplicity"
-    icon : "fas fa-coffee"
-    content : "Buying a product has never been easier: buying becomes as easy as putting a blue thumb up."
-
+    content : "The Toha team meets and dialogues with all the creators present on the platform to ensure that they correspond to our eco-responsible charter."
+  - title : "Transparency"
+    icon : "fas fa-hands"
+    content : "Knowingly ordering products that are actually good for you and the planet. At the slightest doubt, do not hesitate to directly question the creator."
 
   # feature at the right of the image
   right_side:
-    # feature item loop
-  - title : "Transparency"
-    icon : "fas fa-hands"
-    content : "Knowingly buy products that are really good for you and the planet."
-
-    # feature item loop
   - title : "Exclusivity"
     icon : "fas fa-gem"
-    content : "Exclusive content, promotions and new products: each live event offered on Toha is a unique event not to be missed!"
+    content : "Exclusive content, promotions and new products: each live offered on Toha is a unique event not to be missed!"
+  - title : "Simplicity"
+    icon : "fas fa-coffee"
+    content : "For an integrated and fun experience, we've made shopping as easy as possible. It only takes 2 clicks and the product is ready to be shipped to you quickly."
 
 
 ############################# promo ############################

@@ -1,8 +1,8 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Un live pour reprendre le pouvoir"
-  content : "Toha, La plateforme de live shopping eco-responsable qui vous met en relation directement avec les créateurs de vos produits préférés."
+  title : "Des créateurs responsables en live"
+  content : "Savoir ce que l’on achète et à qui on l’achète"
   image : "images/toha_main.webp"
   button:
    enable : false
@@ -29,28 +29,21 @@ features:
 
   # feature at the left of the image
   left_side:
-    # feature item loop
   - title : "Confiance"
     icon : "far fa-handshake"
-    content : "Tous les produits eco-responsables chez Toha sont sélectionnés par nos soins. L’équipe Toha a rencontré et dialogué avec tous les entrepreneurs de la plateforme pour s’assurer qu’ils correspondaient à notre charte eco-responsable."
-    
-    # feature item loop
-  - title : "Simplicité"
-    icon : "fas fa-coffee"
-    content : "Il n’a jamais été aussi simple d’acheter un produit : acheter devient aussi facile que de poser un pouce bleu."
-
+    content : "L’équipe Toha rencontre et dialogue avec tous les créateurs présents sur  la plateforme pour s’assurer qu’ils correspondent à notre charte eco-responsable. "
+  - title : "Transparence"
+    icon : "fas fa-hands"
+    content : "Commande en toute connaissance de cause des produits qui sont réellement bons pour toi et pour la planète. Au moindre doute, n'hésite pas à questionner en direct le créateur/ créatrice. "
 
   # feature at the right of the image
   right_side:
-    # feature item loop
-  - title : "Transparence"
-    icon : "fas fa-hands"
-    content : "Achète en toutes connaissances de cause des produits qui sont réellement bons pour toi et pour la planète."
-
-    # feature item loop
   - title : "Exclusivité"
     icon : "fas fa-gem"
-    content : "Contenu exclusif, promotions et produits inédits : chaque live proposé sur Toha est un événement unique à ne pas rater !"
+    content : "Contenus exclusifs, promotions et produits inédits : chaque live proposé sur Toha est un événement unique à ne pas rater !"
+  - title : "Simplicité"
+    icon : "fas fa-coffee"
+    content : "Pour une expérience intégrée et ludique, nous avons rendu l’achat aussi simple que possible. Il suffit de 2 clics et le produit est prêt à être expédié chez vous rapidement."
 
 
 ############################# promo ############################

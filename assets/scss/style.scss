@@ -664,4 +664,8 @@ a, a:hover {
   }
 }
 
+.banner-section {
+  min-height: calc(100vh - 96px); // top bar height
+}
+
 
