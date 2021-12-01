@@ -22,4 +22,27 @@
 <meta name="robots" content="index,follow" /> 
 <meta name="googlebot" content="index,follow" />
 {{ template "_internal/opengraph.html" . }}
-{{ template "_internal/google_analytics.html" . }}
+{{- $privacyConfig := .Site.Config.Privacy.GoogleAnalytics -}}
+{{- if not $privacyConfig.Disable }}{{ with .Site.GoogleAnalytics -}}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  {{ template "__ga_js_set_doNotTrack" $ }}
+  if (!doNotTrack) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ . }}', { 'anonymize_ip': {{- $privacyConfig.AnonymizeIP -}} });
+    gtag('config', 'G-JZ4501T09P');
+  }
+</script>
+{{- end }}{{ end -}}
+
+{{- define "__ga_js_set_doNotTrack" -}}{{/* This is also used in the async version. */}}
+{{- $privacyConfig := .Site.Config.Privacy.GoogleAnalytics -}}
+{{- if not $privacyConfig.RespectDoNotTrack -}}
+var doNotTrack = false;
+{{- else -}}
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+{{- end -}}
+{{- end -}}

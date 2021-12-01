@@ -4,7 +4,7 @@ title = 'Toha -- The eco-friendly liveshopping platform'
 # post excert
 summarylength = '20'
 # google analytics
-googleAnalytics = 'G-295025002' # Ex: UA-123-45
+googleAnalytics = 'UA-213893680-1' # Ex: UA-123-45
 # disable language
 disableLanguages = [] # disable language from here
 DefaultContentLanguage = 'fr'
@@ -82,6 +82,12 @@ weight = 3
 #name = 'Privacy Policy'
 #url = 'privacy-policy'
 #weight = 4
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false
 
 
 ########################### Default parameters ##########################
