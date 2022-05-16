@@ -5,9 +5,9 @@ banner:
   content : "Toha, the eco-responsible live shopping platform that puts you in direct contact with the creators of your favorite products."
   image : "images/toha_main.webp"
   button:
-   enable : false
-   label : "Browse All Products"
-   link : "products"
+    enable : true
+    label : "Go to the app"
+    link : "https://app.toha-live.com/"
 
 purpose:
    enable: true

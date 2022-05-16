@@ -5,9 +5,9 @@ banner:
   content : "Savoir ce que l’on achète et à qui on l’achète"
   image : "images/toha_main.webp"
   button:
-   enable : false
-   label : "Browse All Products"
-   link : "products"
+   enable : true
+   label : "Aller sur l'app"
+   link : "https://app.toha-live.com/"
 purpose:
   enable: true
   title: "Toha redonne une âme au e-commerce eco-responsable"
