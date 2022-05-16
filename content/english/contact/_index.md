@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description : "this is a meta description"
+description : "Contact us!"
 
 content:
   help_us: "Help us build the platform by becoming one toha's pioneer! Be the first to test!"

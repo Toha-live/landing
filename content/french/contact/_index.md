@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description : "this is a meta description"
+description : "Contactez-nous!"
 
 content:
   help_us: "Aidez-nous à construire la plateforme en devenant l’un des pionniers de Toha. Soyez les premiers à la tester !"
