@@ -3,8 +3,8 @@ title: "Contact"
 description : "Contactez-nous!"
 
 content:
-  help_us: "Aidez-nous à construire la plateforme en devenant l’un des pionniers de Toha. Soyez les premiers à la tester !"
-  beta_tester: "Pour ce faire, rien de plus simple, indiquez votre adresse mail juste ici :"
+  help_us: "Pour participer à nos sessions de live shopping, rien de plus simple,  indiquez votre adresse mail juste ici :"
+  beta_tester: ""
     
 draft: false
 ---
