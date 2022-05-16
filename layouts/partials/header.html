@@ -8,7 +8,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
+      <div class="collapse navbar-collapse text-center align-items-center" id="navigation">
         <ul class="navbar-nav ml-auto">
           {{ range site.Menus.main }}
           <li class="nav-item">
@@ -37,6 +37,7 @@
           {{ end }}
         </select>
         {{ end }}
+        <a href="https://app.toha-live.com/" class="btn btn-main header-button">{{ i18n "GoToApp" }}</a>
       </div>
     </nav>
   </div>
